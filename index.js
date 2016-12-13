@@ -17,10 +17,10 @@ function diskreminant(disk) {
     }
 var result = diskreminant(disk);
 function x1 (a, b ,disk) {
-    var x1 = - b - Math.sqrt(disk) / (2 * a);
+    var x1 = -b - Math.sqrt(disk) / (2 * a);
 }
 function x2 (a, b ,disk) {
-    var x2 = - b + Math.sqrt(disk) / (2 * a);
+    var x2 = -b + Math.sqrt(disk) / (2 * a);
 }
 document.write(x1);
 document.write(x2);
